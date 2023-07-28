@@ -49,20 +49,27 @@
 }
 
 
-.friend_screen_channel {
-  margin-top: 25px; 
-  border-top: 1px solid rgba(0,0,0,0.2); 
-   padding-top: 15px; 
-}
-
-.friend_screen_channel-header {
-     margin-bottom: 20px;  
-     display: flex; 
-     justify-content: space-between; 
-     color: rgba(0,0,0,0.5);
-  
- }
 
  .user-component:last-child {
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.5); 
+    align-items: flex-end;
  }
+
+
+.user-component_time {
+    display: block;
+    margin-bottom: 5px;   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
