@@ -15,4 +15,24 @@
 
 .screen_header_icons span {
     margin-left: 26px;
+} 
+
+
+
+
+
+@keyframes rotateCog {
+    from { 
+      transform: none; 
+
+    } 
+    to {
+      transform: rotatez(360deg); 
+    }
+}  
+
+
+.screen_header_icons .fa-gear:hover { 
+  animation: rotateCog 1s linear infinite; 
+     
 }
