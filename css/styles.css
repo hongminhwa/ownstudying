@@ -12,7 +12,8 @@
 @import "components/user-components.css"; 
 @import "components/badge.css";
 @import "components/icon-row.css";
-@import "components/alt-screenheader.css"; 
+@import "components/alt-screenheader.css";  
+@import "components/no-mobile.css";
 
 @import "screen/login.css";
 @import "screen/friend.css";  
